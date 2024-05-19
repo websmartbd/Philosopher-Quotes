@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosopher Quotes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    .mt-2 { margin-bottom: 1.5rem;}
+</style>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex justify-center items-center">
+        <div class="max-w-md w-full p-8 bg-white rounded-lg shadow-md animate__animated animate__fadeIn">
+            <h1 class="text-3xl font-semibold text-center text-gray-800 mb-6">Philosopher Quotes</h1>
+            <div class="mt-6">
+                <p id="quoteDisplay" class="text-lg text-gray-800 italic"></p>
+                <strong><p id="authorDisplay" class="mt-2 text-sm text-gray-600"></p></strong>
+            </div>
+            <select id="categorySelect" class="block w-full px-4 py-2 mb-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50">
+            </select>
+            <button id="quoteButton" class="w-full px-4 py-2 bg-green-500 text-white rounded-md shadow-md hover:bg-green-600 focus:outline-none focus:ring focus:ring-green-500 focus:ring-opacity-50 transition duration-300 ease-in-out">Show Quote</button>
+        </div>
+    </div>
+    <footer class="bg-gray-200 p-4">
+        <p class="text-center text-gray-600 text-sm"> Code With ❤️ by <a href="https://www.facebook.com/bmshifat0/" class="text-blue-600 hover:underline">BM Shifat</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
